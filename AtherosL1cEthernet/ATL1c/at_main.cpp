@@ -485,7 +485,7 @@ atl1c_free_ring_resources (struct atl1c_adapter *adapter)
 {
 
   if (adapter->ring_header.dma)
-    adapter->ring_header.dma = NULL;
+    adapter->ring_header.dma = 0;
 
   if (adapter->ring_header.memDesc)
   {
