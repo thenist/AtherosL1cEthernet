@@ -186,6 +186,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9280B489160EDAFF007EB1DC;
@@ -268,7 +269,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
 				LLVM_LTO = YES_THIN;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -303,7 +304,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
 				LLVM_LTO = YES_THIN;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SDKROOT = macosx;
 			};
 			name = Release;
